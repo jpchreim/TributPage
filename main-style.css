@@ -1,10 +1,11 @@
 body {
-    
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1em;
 
 }
-#main{
+
+#main {
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
     margin: 25px 5px 25px 5px;
@@ -14,7 +15,7 @@ body {
 #title {
     text-align: center;
     font-size: 2.7em;
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; 
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     color: rgb(53, 53, 53);
 }
 
@@ -22,44 +23,52 @@ body {
     text-align: center;
 }
 
-#div-image {
-    background-color: white;
+#img-div {
     margin: auto;
     width: 97%;
     padding-bottom: 10px;
 }
 
 #image {
+    max-width: 90%;
     display: block;
     margin: auto;
 }
 
 #img-caption {
     text-align: center;
-    font-size: small;
+    font-size: 15px;
+    color: #333;
 }
 
-#div-lifeLine {
+#tribute-info {
     margin: auto;
-    width: 50%;
+    width: 45%;
 }
 
-#div-lifeLine h3 {
+#tribute-info h3 {
     color: rgb(53, 53, 53);
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-li{
+
+li {
     margin-top: 16px;
     line-height: 1.5;
     color: #333;
 }
-li b{
-    
+
+li b {
+
     color: rgb(53, 53, 53);
 }
-i{
+
+ul li:last-child{
+    padding-bottom: 50px;
+}
+
+i {
     display: block;
     width: 45%;
     margin: auto;
@@ -67,5 +76,13 @@ i{
     line-height: 1.5;
     font-size: medium;
     color: #333;
-    
+}
+
+p:last-child{
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 50px;
+
 }
